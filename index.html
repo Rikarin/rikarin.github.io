@@ -1,15 +1,65 @@
 <html>
     <head>
         <title>Rikarin</title>
+        <meta name="author" content="Rene Cincura">
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+        <meta name="title" content="Rikarin">
+        <meta name="type" content="Website">
+        <meta name="url" content="https://rikarin.org">
+
+        <style>
+            @import "https://fonts.googleapis.com/css?family=Rubik:400,500,600,700,800&display=swap";
+            @import "https://fonts.googleapis.com/css?family=Bungee:400,500,600,700,800&display=swap";
+
+            body {
+                --color-primary-default: #0672a5;
+                --color-secondary-default: #9c17a6;
+
+                background-color: rgb(31, 35, 41);
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                color: white;
+                font-family: Rubik;
+            }
+
+            .gradient {
+                background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+
+                font-family: Bungee;
+                font-weight: 300;
+                font-size: 8rem;
+                margin: 0;
+            }
+
+            .title {
+                display: flex;
+                align-items: flex-end;
+                color: white;
+
+                font-size: 2rem;
+            }
+
+            p {
+                line-height: 1.5rem;
+            }
+        </style>
+
     </head>
 
     <body>
-        <h1>Welcome to the Rikarin s.r.o. company website</h1>
+        <div class="title">
+            <h1 class="gradient">Rikarin</h1><strong>s.r.o.</strong>
+        </div>
 
         <p>
-            Contact info: info@rikarin.org<br />
-            D-U-N-S® Number: 933639178<br />
-            Address: Doležalova 15C, 821 04, Bratislava - Ružinov, Slovakia
+            Contact e-mail: <b>info@rikarin.org</b><br />
+            D-U-N-S® Number: <b>933639178</b><br />
+            Address: <b>Doležalova 15C, 821 04, Bratislava - Ružinov, Slovakia</b>
         </p>
     </body>
 </html>
